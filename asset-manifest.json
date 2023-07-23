@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Keep-Notes-App/static/css/main.5810731e.css",
+    "main.js": "/React-Keep-Notes-App/static/js/main.bcfe50d5.js",
+    "index.html": "/React-Keep-Notes-App/index.html",
+    "main.5810731e.css.map": "/React-Keep-Notes-App/static/css/main.5810731e.css.map",
+    "main.bcfe50d5.js.map": "/React-Keep-Notes-App/static/js/main.bcfe50d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5810731e.css",
+    "static/js/main.bcfe50d5.js"
+  ]
+}
