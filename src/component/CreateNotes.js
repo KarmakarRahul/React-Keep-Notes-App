@@ -2,19 +2,19 @@ import React, { useState } from "react";
 import { FaPlus } from 'react-icons/fa';
 
 const CreateNotes = (props) => {
-    const [note,setNote]= useState({
-        title:"",
-        content:""
+    const [note, setNote] = useState({
+        title: "",
+        content: ""
     });
 
     const InputEvent = (event) => {
         // const name = event.target.name;
         // const value = event.target.value;
-        const {name,value } = event.target;
-        setNote((prevData) => { 
+        const { name, value } = event.target;
+        setNote((prevData) => {
             return {
                 ...prevData,
-                [name]:value,
+                [name]: value,
             };
         });
     };
@@ -22,23 +22,23 @@ const CreateNotes = (props) => {
     const addEvent = (e) => {
         e.preventDefault()
 
-        if(note.title === "" || note.content ===''){
+        if (note.title === "" || note.content === '') {
             console.log("error occured");
         }
         else {
-        props.passNote(note);
-        setNote({
-            title:"",
-            content:""
-        })
-    }
+            props.passNote(note);
+            setNote({
+                title: "",
+                content: ""
+            })
+        }
     };
 
     return (
         <>
             <div>
                 <form className="w-full max-w-md mx-auto relative" onSubmit={addEvent}>
-                    <div className="flex flex-wrap -mx-3 mb-6">
+                    <div className="flex flex-wrap  mb-6">
                         <div className="w-full px-3 mb-6 md:mb-0 my-4">
                             <label
                                 className="block  tracking-wide text-[#176B87] text-lg font-bold mb-1"
@@ -61,7 +61,7 @@ const CreateNotes = (props) => {
 
                         </div>
                     </div>
-                    <div className="flex flex-wrap -mx-3 mb-1">
+                    <div className="flex flex-wrap  mb-1">
                         <div className="w-full px-3">
                             <label
                                 className="block  tracking-wide text-[#176B87]  text-lg font-bold mb-1"

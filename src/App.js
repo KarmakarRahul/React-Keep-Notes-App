@@ -25,6 +25,7 @@ const App = () => {
         <div className=" w-screen h-screen">
             <Header />
             <CreateNotes passNote={addNotes} />
+            <div className="border-blue-900 px-4 flex flex-wrap justify-center sm:mx-auto max-w-6xl gap-2">
             {
                 addItem.map((val, index) => {
                     return (
@@ -38,6 +39,7 @@ const App = () => {
                     );
                 })
             }
+            </div>
         </div>
     )
 };

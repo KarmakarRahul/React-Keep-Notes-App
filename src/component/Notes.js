@@ -27,7 +27,7 @@ const Notes = ({ title, content, deleteItem, id }) => {
     };
 
     return (
-        <div className="relative w-full  h-48 max-w-md bg-white shadow-md rounded-lg my-4 inline-block mx-3 border  border-zinc-500">
+        <div className="relative w-full  h-48  max-w-md bg-white shadow-md rounded-lg my-4 inline-block  border  border-zinc-500">
             <div className="px-6 py-8">
                 <div className="font-bold text-xl mb-2">{title}</div>
                 <div className="w-full h-20 overflow-y-scroll">
