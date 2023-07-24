@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-Keep-Notes-App/static/css/main.5810731e.css",
-    "main.js": "/React-Keep-Notes-App/static/js/main.bcfe50d5.js",
+    "main.css": "/React-Keep-Notes-App/static/css/main.9c3e57d0.css",
+    "main.js": "/React-Keep-Notes-App/static/js/main.98681078.js",
     "index.html": "/React-Keep-Notes-App/index.html",
-    "main.5810731e.css.map": "/React-Keep-Notes-App/static/css/main.5810731e.css.map",
-    "main.bcfe50d5.js.map": "/React-Keep-Notes-App/static/js/main.bcfe50d5.js.map"
+    "main.9c3e57d0.css.map": "/React-Keep-Notes-App/static/css/main.9c3e57d0.css.map",
+    "main.98681078.js.map": "/React-Keep-Notes-App/static/js/main.98681078.js.map"
   },
   "entrypoints": [
-    "static/css/main.5810731e.css",
-    "static/js/main.bcfe50d5.js"
+    "static/css/main.9c3e57d0.css",
+    "static/js/main.98681078.js"
   ]
 }
